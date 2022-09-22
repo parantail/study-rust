@@ -21,3 +21,8 @@ Studying Rust
       ```
       sudo apt install -y pkg-config libssl-dev
       ```
+
+## Book
+
+- github
+  - https://github.com/rust-in-action/code
