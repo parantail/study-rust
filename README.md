@@ -2,6 +2,10 @@
 
 Studying Rust
 
+## Github
+
+- https://github.com/parantail/study-rust
+
 ## Setup
 
 - Rust for WSL2
