@@ -1,4 +1,5 @@
 // # File의 read 기능 추가
+// 다음 예제들을 위한 준비의 의미
 
 #[derive(Debug)]
 struct File {
