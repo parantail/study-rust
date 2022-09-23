@@ -2,7 +2,10 @@
 
 // [생각] 가장 전형적인 enum의 활용 방식
 
-#[derive(Debug, PartialEq)] // PartialEq가 있어야 state != Open 같은 연산이 가능
+#[derive(Debug, PartialEq)] // PartialEq가 있어야 state != Open 같은 비교 연산이 가능
+// Partial 이라서 NAN, NULL 같은.. "동일한 값으로 취급되어서는 안 되는 경우에 쓰일 수 있다."
+// For example, in floating point numbers NaN != NaN, so floating point types implement PartialEq but not Eq.
+
 enum FileState {
     Open,
     Closed,
